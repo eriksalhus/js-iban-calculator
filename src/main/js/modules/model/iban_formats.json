@@ -1,0 +1,320 @@
+[
+    {
+        "country": "Andorra",
+        "code": "AD",
+        "bank_code_format": "0  4n 4n",
+        "account_format": "0  12   0 "
+    },
+    {
+        "country": "Albania",
+        "code": "AL",
+        "bank_code_format": "0  8n 0 ",
+        "account_format": "0  16   0 "
+    },
+    {
+        "country": "Austria",
+        "code": "AT",
+        "bank_code_format": "0  5n 0 ",
+        "account_format": "0  11n  0 "
+    },
+    {
+        "country": "Bosnia and Herzegovina",
+        "code": "BA",
+        "bank_code_format": "0  3n 3n",
+        "account_format": "0   8n  2n"
+    },
+    {
+        "country": "Belgium",
+        "code": "BE",
+        "bank_code_format": "0  3n 0 ",
+        "account_format": "0   7n  2n"
+    },
+    {
+        "country": "Bulgaria",
+        "code": "BG",
+        "bank_code_format": "0  4a 4n",
+        "account_format": "2n  8   0 "
+    },
+    {
+        "country": "Switzerland",
+        "code": "CH",
+        "bank_code_format": "0  5n 0 ",
+        "account_format": "0  12   0 "
+    },
+    {
+        "country": "Cyprus",
+        "code": "CY",
+        "bank_code_format": "0  3n 5n",
+        "account_format": "0  16   0 "
+    },
+    {
+        "country": "Czech Republic",
+        "code": "CZ",
+        "bank_code_format": "0  4n 0 ",
+        "account_format": "0  16n  0 "
+    },
+    {
+        "country": "Germany",
+        "code": "DE",
+        "bank_code_format": "0  8n 0 ",
+        "account_format": "0  10n  0 "
+    },
+    {
+        "country": "Denmark",
+        "code": "DK",
+        "bank_code_format": "0  4n 0 ",
+        "account_format": "0   9n  1n"
+    },
+    {
+        "country": "Estonia",
+        "code": "EE",
+        "bank_code_format": "0  2n 0 ",
+        "account_format": "2n 11n  1n"
+    },
+    {
+        "country": "Spain",
+        "code": "ES",
+        "bank_code_format": "0  4n 4n",
+        "account_format": "2n 10n  0 "
+    },
+    {
+        "country": "Finland",
+        "code": "FI",
+        "bank_code_format": "0  6n 0 ",
+        "account_format": "0   7n  1n"
+    },
+    {
+        "country": "Faroe Islands",
+        "code": "FO",
+        "bank_code_format": "0  4n 0 ",
+        "account_format": "0   9n  1n"
+    },
+    {
+        "country": "France",
+        "code": "FR",
+        "bank_code_format": "0  5n 5n",
+        "account_format": "0  11   2n"
+    },
+    {
+        "country": "United Kingdom",
+        "code": "GB",
+        "bank_code_format": "0  4a 6n",
+        "account_format": "0   8n  0 "
+    },
+    {
+        "country": "Georgia",
+        "code": "GE",
+        "bank_code_format": "0  2a 0 ",
+        "account_format": "0  16n  0 "
+    },
+    {
+        "country": "Gibraltar",
+        "code": "GI",
+        "bank_code_format": "0  4a 0 ",
+        "account_format": "0  15   0 "
+    },
+    {
+        "country": "Greenland",
+        "code": "GL",
+        "bank_code_format": "0  4n 0 ",
+        "account_format": "0   9n  1n"
+    },
+    {
+        "country": "Greece",
+        "code": "GR",
+        "bank_code_format": "0  3n 4n",
+        "account_format": "0  16   0 "
+    },
+    {
+        "country": "Croatia",
+        "code": "HR",
+        "bank_code_format": "0  7n 0 ",
+        "account_format": "0  10n  0 "
+    },
+    {
+        "country": "Hungary",
+        "code": "HU",
+        "bank_code_format": "0  3n 4n",
+        "account_format": "1n 15n  1n"
+    },
+    {
+        "country": "Ireland",
+        "code": "IE",
+        "bank_code_format": "0  4a 6n",
+        "account_format": "0   8n  0 "
+    },
+    {
+        "country": "Israel",
+        "code": "IL",
+        "bank_code_format": "0  3n 3n",
+        "account_format": "0  13n  0 "
+    },
+    {
+        "country": "Iceland",
+        "code": "IS",
+        "bank_code_format": "0  4n 0 ",
+        "account_format": "2n 16n  0 "
+    },
+    {
+        "country": "Italy",
+        "code": "IT",
+        "bank_code_format": "1a 5n 5n",
+        "account_format": "0  12   0 "
+    },
+    {
+        "country": "Kuwait",
+        "code": "KW",
+        "bank_code_format": "0  4a 0 ",
+        "account_format": "0  22   0 "
+    },
+    {
+        "country": "Kazakhstan",
+        "code": "KZ",
+        "bank_code_format": "0  3n 0 ",
+        "account_format": "0  13   0 "
+    },
+    {
+        "country": "Lebanon",
+        "code": "LB",
+        "bank_code_format": "0  4n 0 ",
+        "account_format": "0  20   0 "
+    },
+    {
+        "country": "Liechtenstein",
+        "code": "LI",
+        "bank_code_format": "0  5n 0 ",
+        "account_format": "0  12   0 "
+    },
+    {
+        "country": "Lithuania",
+        "code": "LT",
+        "bank_code_format": "0  5n 0 ",
+        "account_format": "0  11n  0 "
+    },
+    {
+        "country": "Luxembourg",
+        "code": "LU",
+        "bank_code_format": "0  3n 0 ",
+        "account_format": "0  13   0 "
+    },
+    {
+        "country": "Latvia",
+        "code": "LV",
+        "bank_code_format": "0  4a 0 ",
+        "account_format": "0  13   0 "
+    },
+    {
+        "country": "Monaco",
+        "code": "MC",
+        "bank_code_format": "0  5n 5n",
+        "account_format": "0  11   2n"
+    },
+    {
+        "country": "Montenegro",
+        "code": "ME",
+        "bank_code_format": "0  3n 0 ",
+        "account_format": "0  13n  2n"
+    },
+    {
+        "country": "Macedonia",
+        "code": "MK",
+        "bank_code_format": "0  3n 0 ",
+        "account_format": "0  10   2n"
+    },
+    {
+        "country": "Mauritania",
+        "code": "MR",
+        "bank_code_format": "0  5n 5n",
+        "account_format": "0  11n  2n"
+    },
+    {
+        "country": "Malta",
+        "code": "MT",
+        "bank_code_format": "0  4a 5n",
+        "account_format": "0  18   0 "
+    },
+    {
+        "country": "Mauritius",
+        "code": "MU",
+        "bank_code_format": "0  4a 4n",
+        "account_format": "0  15n  3a"
+    },
+    {
+        "country": "Netherlands",
+        "code": "NL",
+        "bank_code_format": "0  4a 0 ",
+        "account_format": "0  10n  0 "
+    },
+    {
+        "country": "Norway",
+        "code": "NO",
+        "bank_code_format": "0  4n 0 ",
+        "account_format": "0   6n  1n"
+    },
+    {
+        "country": "Poland",
+        "code": "PL",
+        "bank_code_format": "0  8n 0 ",
+        "account_format": "0  16n  0 "
+    },
+    {
+        "country": "Portugal",
+        "code": "PT",
+        "bank_code_format": "0  4n 4n",
+        "account_format": "0  11n  2n"
+    },
+    {
+        "country": "Romania",
+        "code": "RO",
+        "bank_code_format": "0  4a 0 ",
+        "account_format": "0  16   0 "
+    },
+    {
+        "country": "Serbia",
+        "code": "RS",
+        "bank_code_format": "0  3n 0 ",
+        "account_format": "0  13n  2n"
+    },
+    {
+        "country": "Saudi Arabia",
+        "code": "SA",
+        "bank_code_format": "0  2n 0 ",
+        "account_format": "0  18   0 "
+    },
+    {
+        "country": "Sweden",
+        "code": "SE",
+        "bank_code_format": "0  3n 0 ",
+        "account_format": "0  16n  1n"
+    },
+    {
+        "country": "Slovenia",
+        "code": "SI",
+        "bank_code_format": "0  5n 0 ",
+        "account_format": "0   8n  2n"
+    },
+    {
+        "country": "Slovak Republic",
+        "code": "SK",
+        "bank_code_format": "0  4n 0 ",
+        "account_format": "0  16n  0 "
+    },
+    {
+        "country": "San Marino",
+        "code": "SM",
+        "bank_code_format": "1a 5n 5n",
+        "account_format": "0  12   0 "
+    },
+    {
+        "country": "Tunisia",
+        "code": "TN",
+        "bank_code_format": "0  2n 3n",
+        "account_format": "0  13n  2n"
+    },
+    {
+        "country": "Turkey",
+        "code": "TR",
+        "bank_code_format": "0  5n 0 ",
+        "account_format": "1  16   0 "
+    }
+]
