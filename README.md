@@ -1,7 +1,7 @@
-js-iban-calculator
+Javascript IBAN Calculator
 ==================
 
-Javascript IBAN Calculator
+
 
 
 ```javascript
