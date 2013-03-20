@@ -9,7 +9,7 @@
 </head>
 <body>
 <script type="text/javascript">
-    if (window.location.href.indexOf("ManualSpecRunner.html") !== -1) {
+    if(window.location.href.indexOf("ManualSpecRunner.html") !== -1) {
         document.body.appendChild(document.createTextNode("Warning: opening this HTML file directly from the file system is deprecated. You should instead try running `mvn jasmine:bdd` from the command line, and then visit `http://localhost:8234` in your browser. "))
     }
 
@@ -21,7 +21,7 @@
         // mvn test
         testPath = "../spec/";
     }
-
+  
     var requireConfig = {
         baseUrl: '$sourceDir$',
         paths: {
@@ -53,9 +53,15 @@
 
     require.config(requireConfig);
 
-    require(specs, function () {
-        window.reporter = new jasmine.$reporter$();
-        jasmine.getEnv().addReporter(reporter);
+    require(specs, function() {
+        window.reporter = new jasmine.$reporter$(); jasmine.getEnv().addReporter(reporter);
+
+		if ('$reporter$' === 'HtmlReporter') {
+			jasmine.getEnv().specFilter = function(spec) {
+				return reporter.specFilter(spec);
+			}
+		}
+
         jasmine.getEnv().execute();
     });
 </script>

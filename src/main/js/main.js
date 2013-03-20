@@ -10,7 +10,7 @@ requirejs.config({
         'text': 'vendor/plugin/text',
         'handlebars': 'vendor/customHandlebars',
         'hb': 'vendor/plugin/hb',
-        'json': 'vendor/plugin/json'
+		'json': 'vendor/plugin/json'
     },
 
     shim: {

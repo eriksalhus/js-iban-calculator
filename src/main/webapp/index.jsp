@@ -9,8 +9,8 @@
     <script type="text/javascript" src="build/reservasjoner.js?v=${buildNumber}"></script>
     <% } %>
 </head>
-<body>
-<div class="iban"></div>
+<body >
+    <div class="iban"></div>
 </body>
 </html>
 
