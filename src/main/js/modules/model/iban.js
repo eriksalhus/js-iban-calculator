@@ -84,13 +84,13 @@ define([], function () {
             for (var i = 0; i < parts.length; ++i) {
                 var part = parts[i];
                 if (part !== "") {
-                    var type = part.charAt(part.length - 1);
+                    var type = part.slice(-1);
                     if (type === "a" || type === "n") {
-                        part = part.substring(0, part.length - 1);
+                        part = part.slice(0, -1);
                     } else {
                         type = "c";
                     }
-                    listOfFormats[listOfFormats.length] = new Array(parseInt(part, 10), type);
+                    listOfFormats[listOfFormats.length] = new Array(part |0, type);
                 }
             }
             return listOfFormats;
@@ -115,25 +115,11 @@ define([], function () {
         this.totalLength = 4 + this.bankLength + this.accountLength;
     };
 
-    function capital2digits(character) {
-        var capitals = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        for (var i = 0; i < capitals.length; ++i) {
-            if (character === capitals.charAt(i)) {
-                break;
-            }
-        }
-        return i + 10;
-    }
-
     function convertToDigitString(account) {
         var digitString = '';
         for (var index = 0; index < account.length; index++) {
-            var character = account.charAt(index).toUpperCase();
-            if (character >= '0' && character <= '9') {
-                digitString += character.toString();
-                continue;
-            }
-            digitString += capital2digits(character.toString());
+            var code = account[index].toUpperCase().charCodeAt(0);
+            digitString += code < 65 ? account[index] : code - 55;
         }
         return digitString;
     }
@@ -141,7 +127,7 @@ define([], function () {
     function mod97(digitString) {
         var m = 0;
         for (var i = 0; i < digitString.length; ++i) {
-            m = ((m * 10) + parseInt(digitString.charAt(i), 10)) % 97;
+            m = ((m * 10) + (digitString[i] |0)) % 97;
         }
         return m;
     }
@@ -150,10 +136,7 @@ define([], function () {
         if (string === null) {
             string = '';
         }
-        while (string.length < length) {
-            string = "0" + string;
-        }
-        return string;
+        return string.length >= length ? string : new Array(length - string.length + 1).join('0') + string;
     }
 
     function addSpaceAfterNumCharacters(string, numCharacters) {
@@ -162,7 +145,7 @@ define([], function () {
             if (i > 0 && i % numCharacters === 0) {
                 result += " ";
             }
-            result += string.charAt(i);
+            result += string[i];
         }
         return result;
     }
@@ -197,7 +180,7 @@ define([], function () {
                 length = ibanPart.length;
             }
             for (var i = 0; i < length; ++i) {
-                var character = ibanPart.charAt(i);
+                var character = ibanPart[i];
                 var a = ("A" <= character && character <= "Z");
                 var n = ("0" <= character && character <= "9");
                 var c = n || a || ("a" <= character && character <= "z");
